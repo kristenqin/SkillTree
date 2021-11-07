@@ -119,3 +119,86 @@ Merge made by the 'recursive' strategy. 关于这个方法的一个详细解释,
 ![image-20211107100538682](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107100538682.png)
 
 在`merge`的时候只会`merge`内容, 一些符号并没有合并到main中的文件里面
+
+## 查看提交历史
+
+### git log
+
+![image-20211107101128561](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107101128561.png)
+
+退出操作
+
+`q`退出
+
+```git
+git log
+git log --oneline
+git log --graph
+git log --reverse
+git log --author
+git log --since
+git log --before
+git log --until
+git log --after
+```
+
+```git
+git log --oneline --before={3.weeks.ago} --after={2010-04-18} --no-merges
+```
+
+
+
+### git blame
+
+```git
+git blame Git.md
+```
+
+
+
+## Git标签
+
+`git tag -a v0.0`: 对上一次版本添加标签
+
+`git log --decorate`: 查看标签
+
+`git tag -a v0.0 d653c6f472543b076f550aa52de61642d3f999cf`: 对某个时间点发布的版本添加标签
+
+`git tag`: 查看标签
+
+`git tag -d v0.0`: 删除标签
+
+`git tag -a <tagname> -m “test”`: 指定标签信息命令
+
+`git tag -s <tagname>  -m “test”`: PGP签名标签命令
+
+## Git Github
+
+添加远程库
+
+查看当前远程库
+
+提取远程仓库
+
+推送到远程仓库
+
+删除远程仓库
+
+[详见](https://www.runoob.com/git/git-remote-repo.html)
+
+## GitGitee
+
+[详见](https://www.runoob.com/git/git-gitee.html)
+
+## Git服务器搭建
+
+![image-20211107105018520](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107105018520.png)
+
+自己搭建过程中出现的问题
+
+`Git`服务器搭建的目的除了不交GitHub费用, 在真实场景中是什么样子的不能理解
+
+外加服务器字眼感觉比较迷惑
+
+中间很多操作不懂原理是什么
+
