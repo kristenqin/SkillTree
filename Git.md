@@ -108,3 +108,4 @@ Merge made by the 'recursive' strategy. 关于这个方法的一个详细解释,
 
 [解决办法](https://stackoverflow.com/questions/55998614/merge-made-by-recursive-strategy)
 
+切换分支的同时, 自己这个文档会自动更改成对应分支的文档
