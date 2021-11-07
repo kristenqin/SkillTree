@@ -116,3 +116,6 @@ Merge made by the 'recursive' strategy. 关于这个方法的一个详细解释,
 
 ![image-20211107092608202](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107092608202.png)
 
+![image-20211107100538682](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107100538682.png)
+
+在`merge`的时候只会`merge`内容, 一些符号并没有合并到main中的文件里面
