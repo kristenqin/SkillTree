@@ -1,8 +1,12 @@
-Git vs SVN
+# Git
+
+## 安装配置
+
+### Git vs SVN
 
 ![image](https://www.runoob.com/wp-content/uploads/2015/02/0D32F290-80B0-4EA4-9836-CA58E22569B3.jpg)
 
-Centos安装
+### Centos安装
 
 命令行安装
 
@@ -30,11 +34,11 @@ $ cd git-1.7.2.2
 $ make prefix=/usr/local all
 $ sudo make prefix=/usr/local install
 ```
-工作流程
+## 工作流程
 
 ![image](https://www.runoob.com/wp-content/uploads/2015/02/git-process.png)
 
-Git 工作区、暂存区和版本库
+## Git 工作区、暂存区和版本库
 
 ![image](https://www.runoob.com/wp-content/uploads/2015/02/1352126739_7909.jpg)
 
@@ -44,7 +48,7 @@ Git 工作区、暂存区和版本库
 
 所以在 git bash 中 git commit -m '提交说明' 这样是可以的，在 Windows 命令行中就要使用双引号 git commit -m "提交说明"。
 
-git基本操作
+## git基本操作
 
 git工作创建和保存项目快照及与之后的快照进行对比
 
@@ -56,6 +60,25 @@ remote repository：远程仓库
 
 ![image](https://remnote-user-data.s3.amazonaws.com/LmQZ_tWoWr-RtbG3XKh_S5vOS-KQBjioCtb9hupjO4pnJyjJkWrIe_oYi-_ywvejtFbPYdkgILQ_YKCphAxdziBbFKqKiDayVK-cIsF55ZYqj2K9-iSQ9-6suqYxd65M.png)
 
-git 分支管理
+## git 分支管理
 
 使用分支将工作切分开来，从而让我们能够在不同开发环境中做事，并来回切换
+
+自己使用了一个git rest --hard master应该导致另外添加的内容没有被保存
+
+![image-20211107085710264](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107085710264.png)
+
+[解决办法](https://stackoverflow.com/questions/47471400/why-are-changes-in-one-branch-visible-in-another-branch)
+
+```git
+git checkout testing
+git add .
+git commit -m "test"
+```
+
+删除操作
+
+```git
+git reset --hard master
+```
+
