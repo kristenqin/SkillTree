@@ -1,5 +1,9 @@
 # Git
 
+## 相关工具
+
+[解释命令行](https://explainshell.com/)
+
 ## 安装配置
 
 ### Git vs SVN
@@ -90,5 +94,17 @@ git branch -M main
 git push -u origin main
 ```
 
+==问题==
+
 ![image-20211107091055210](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107091055210.png)
+
+![image-20211107091146359](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107091146359.png)
+
+`push`完之后就没有相关内容了
+
+==问题==
+
+Merge made by the 'recursive' strategy. 关于这个方法的一个详细解释, 目前还看不懂
+
+[解决办法](https://stackoverflow.com/questions/55998614/merge-made-by-recursive-strategy)
 
