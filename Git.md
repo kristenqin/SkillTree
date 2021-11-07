@@ -82,3 +82,13 @@ git commit -m "test"
 git reset --hard master
 ```
 
+创建仓库, 并push已有本地仓库
+
+```git
+git remote add origin https://github.com/kristenqin/SkillTree.git
+git branch -M main
+git push -u origin main
+```
+
+![image-20211107091055210](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107091055210.png)
+
