@@ -59,3 +59,5 @@ remote repository：远程仓库
 git 分支管理
 
 使用分支将工作切分开来，从而让我们能够在不同开发环境中做事，并来回切换
+
+![image-20211107092608202](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107092608202.png)
