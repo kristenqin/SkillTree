@@ -202,3 +202,19 @@ git blame Git.md
 
 中间很多操作不懂原理是什么
 
+## Github图床相关
+
+`token`设置
+
+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
+
+这个是自己设置的不会过期的`token`
+
+![image-20211107112617825](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20211107112617825.png)
+
+创建仓库的时候出现的报错
+
+图床创建`typora GitHub picgo` 教程创建失败
+
+[完整教程(很多地方还是不理解)](http://www.duheweb.com/post/20210421125522.html)
+
